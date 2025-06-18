@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #222222;
+    color: white;
+}
+
+/*navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    background-color:  rgb(0,0,0,0.5);
+    border-bottom: 1.5px solid black;
+}
+
+nav h1{
+    padding: 10px;
+}
+
+ul,li{
+    display: inline-block;
+}
+
+li{
+    padding: 10px;
+    margin: 5px;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+}
+
+/*about us*/
+#about-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#aboutus-div img{
+    height: 150px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+#aboutus-div{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 0px 15px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#aboutus-div h1{
+    text-align: center;
+}
+
+#aboutus-div tr,td{
+    padding: 10px;
+    margin: 5px;
+}
+
+/*contect us*/
+#contect-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#contectus-div{
+    width: 400px;
+    height: fit-content;
+    box-shadow: 0px 0px 15px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#contectus-div tr,td{
+    padding: 10px;
+    margin: 5px;
+}
+
+#contectus-div h1{
+    text-align: center;
+}
+
+#contectus-table{
+  display: flex;
+  justify-content: center;
+}
+
+/*projects*/
+#projects{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#projects h1{
+    text-align: center;
+}
+
+#projects-div{
+    width: 400px;
+    height: fit-content;
+    box-shadow: 0px 0px 15px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#projects-div p{
+    padding: 25px;
+    margin: 5px;
+}
+
+#projects-div button{
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 4px 8px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
